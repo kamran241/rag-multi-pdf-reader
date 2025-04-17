@@ -1,0 +1,76 @@
+2025-04-17 16:12:15,768 INFO: Use pytorch device_name: cpu
+2025-04-17 16:12:15,768 INFO: Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-17 16:12:19,030 INFO: Starting Flask server
+2025-04-17 16:12:19,048 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.1.15:8000
+2025-04-17 16:12:19,048 INFO: [33mPress CTRL+C to quit[0m
+2025-04-17 16:12:39,966 INFO: 127.0.0.1 - - [17/Apr/2025 16:12:39] "[33mGET / HTTP/1.1[0m" 404 -
+2025-04-17 16:12:43,517 INFO: 127.0.0.1 - - [17/Apr/2025 16:12:43] "[33mGET / HTTP/1.1[0m" 404 -
+2025-04-17 16:12:44,027 INFO: 127.0.0.1 - - [17/Apr/2025 16:12:44] "[33mGET / HTTP/1.1[0m" 404 -
+2025-04-17 16:14:55,866 INFO: 127.0.0.1 - - [17/Apr/2025 16:14:55] "[33mGET / HTTP/1.1[0m" 404 -
+2025-04-17 16:14:57,624 INFO: 127.0.0.1 - - [17/Apr/2025 16:14:57] "[33mGET / HTTP/1.1[0m" 404 -
+2025-04-17 16:15:12,782 INFO: 127.0.0.1 - - [17/Apr/2025 16:15:12] "[33mGET / HTTP/1.1[0m" 404 -
+2025-04-17 16:15:33,820 INFO: 127.0.0.1 - - [17/Apr/2025 16:15:33] "[33mGET / HTTP/1.1[0m" 404 -
+2025-04-17 16:20:16,761 INFO: Use pytorch device_name: cpu
+2025-04-17 16:20:16,761 INFO: Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-17 16:20:19,705 INFO: Starting Flask server
+2025-04-17 16:20:19,714 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.1.15:8000
+2025-04-17 16:20:19,714 INFO: [33mPress CTRL+C to quit[0m
+2025-04-17 16:21:14,215 INFO: 127.0.0.1 - - [17/Apr/2025 16:21:14] "GET / HTTP/1.1" 200 -
+2025-04-17 16:22:32,894 INFO: Processed 1171 document chunks
+2025-04-17 16:22:32,895 INFO: Processed 1 PDFs
+2025-04-17 16:22:32,897 INFO: 127.0.0.1 - - [17/Apr/2025 16:22:32] "POST /upload HTTP/1.1" 200 -
+2025-04-17 16:22:53,056 INFO: Processed 1171 document chunks
+2025-04-17 16:22:53,056 INFO: Processed 2 PDFs
+2025-04-17 16:22:53,058 INFO: 127.0.0.1 - - [17/Apr/2025 16:22:53] "POST /upload HTTP/1.1" 200 -
+2025-04-17 16:23:11,390 ERROR: Error extracting text from Uploads\Cant_Hurt_mee.pdf: Stream has ended unexpectedly
+2025-04-17 16:23:11,390 ERROR: Error processing PDFs: Stream has ended unexpectedly
+2025-04-17 16:23:11,392 INFO: 127.0.0.1 - - [17/Apr/2025 16:23:11] "[35m[1mPOST /upload HTTP/1.1[0m" 500 -
+2025-04-17 16:24:04,035 INFO: Processed 1171 document chunks
+2025-04-17 16:24:04,036 INFO: Processed 2 PDFs
+2025-04-17 16:24:04,037 INFO: 127.0.0.1 - - [17/Apr/2025 16:24:04] "POST /upload HTTP/1.1" 200 -
+2025-04-17 16:24:06,843 ERROR: Error calling OpenRouter API: 400 Client Error: Bad Request for url: https://openrouter.ai/api/v1/chat/completions
+2025-04-17 16:24:06,844 ERROR: Error processing query: 400 Client Error: Bad Request for url: https://openrouter.ai/api/v1/chat/completions
+2025-04-17 16:24:06,845 INFO: 127.0.0.1 - - [17/Apr/2025 16:24:06] "[35m[1mPOST /query HTTP/1.1[0m" 500 -
+2025-04-17 16:27:31,078 INFO: Processed 1171 document chunks
+2025-04-17 16:27:31,079 INFO: Processed 2 PDFs
+2025-04-17 16:27:31,080 INFO: 127.0.0.1 - - [17/Apr/2025 16:27:31] "POST /upload HTTP/1.1" 200 -
+2025-04-17 16:27:33,872 ERROR: Error calling OpenRouter API: 400 Client Error: Bad Request for url: https://openrouter.ai/api/v1/chat/completions
+2025-04-17 16:27:33,872 ERROR: Error processing query: 400 Client Error: Bad Request for url: https://openrouter.ai/api/v1/chat/completions
+2025-04-17 16:27:33,873 INFO: 127.0.0.1 - - [17/Apr/2025 16:27:33] "[35m[1mPOST /query HTTP/1.1[0m" 500 -
+2025-04-17 16:36:41,768 INFO: Use pytorch device_name: cpu
+2025-04-17 16:36:41,768 INFO: Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-17 16:36:44,888 INFO: Starting Flask server
+2025-04-17 16:36:44,896 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.1.15:8000
+2025-04-17 16:36:44,896 INFO: [33mPress CTRL+C to quit[0m
+2025-04-17 16:40:27,347 INFO: 127.0.0.1 - - [17/Apr/2025 16:40:27] "GET / HTTP/1.1" 200 -
+2025-04-17 16:40:48,787 INFO: Processed 30 document chunks
+2025-04-17 16:40:48,788 INFO: Processed 1 PDFs
+2025-04-17 16:40:48,788 INFO: 127.0.0.1 - - [17/Apr/2025 16:40:48] "POST /upload HTTP/1.1" 200 -
+2025-04-17 16:41:46,502 INFO: Processed 1171 document chunks
+2025-04-17 16:41:46,503 INFO: Processed 2 PDFs
+2025-04-17 16:41:46,504 INFO: 127.0.0.1 - - [17/Apr/2025 16:41:46] "POST /upload HTTP/1.1" 200 -
+2025-04-17 16:42:23,289 ERROR: Error extracting text from Uploads\Cant_Hurt_mee.pdf: EOF marker not found
+2025-04-17 16:42:23,289 ERROR: Error processing PDFs: EOF marker not found
+2025-04-17 16:42:23,290 INFO: 127.0.0.1 - - [17/Apr/2025 16:42:23] "[35m[1mPOST /upload HTTP/1.1[0m" 500 -
+2025-04-17 16:43:10,405 INFO: Processed 1171 document chunks
+2025-04-17 16:43:10,405 INFO: Processed 2 PDFs
+2025-04-17 16:43:10,406 INFO: 127.0.0.1 - - [17/Apr/2025 16:43:10] "POST /upload HTTP/1.1" 200 -
+2025-04-17 16:43:17,585 INFO: Query processed: what is the first topic of the second pdf
+2025-04-17 16:43:17,585 INFO: 127.0.0.1 - - [17/Apr/2025 16:43:17] "POST /query HTTP/1.1" 200 -
+2025-04-17 16:46:32,089 ERROR: Error extracting text from Uploads\Cant_Hurt_mee.pdf: EOF marker not found
+2025-04-17 16:46:32,089 ERROR: Error processing PDFs: EOF marker not found
+2025-04-17 16:46:32,091 INFO: 127.0.0.1 - - [17/Apr/2025 16:46:32] "[35m[1mPOST /upload HTTP/1.1[0m" 500 -
+2025-04-17 16:46:51,067 INFO: Processed 1171 document chunks
+2025-04-17 16:46:51,068 INFO: Processed 2 PDFs
+2025-04-17 16:46:51,069 INFO: 127.0.0.1 - - [17/Apr/2025 16:46:51] "POST /upload HTTP/1.1" 200 -
+2025-04-17 16:46:55,800 INFO: Query processed: okay who is the author of the boom cant hurt me 
+2025-04-17 16:46:55,801 INFO: 127.0.0.1 - - [17/Apr/2025 16:46:55] "POST /query HTTP/1.1" 200 -
