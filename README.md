@@ -7,10 +7,10 @@ pip
 Virtual environment (recommended)
 
 Setup
-
-Clone the repository:
-git clone <repository-url>
-cd rag_app
+    ```bash
+    Clone the repository:
+    git clone https://github.com/kamran241/rag-multi-pdf-reader.git
+    cd rag-multi-pdf-reader.git
 
 
 Create and activate a virtual environment:
@@ -40,14 +40,16 @@ mkdir -p backend/logs uploads
 Running the Application
 
 Start the Flask backend:
-cd backend
-python app.py
+    ```bash 
+       cd backend
+       python app.py
 
 The backend runs on http://localhost:8000.
 
 Start the Streamlit frontend: Open a new terminal, activate the virtual environment, and run:
-cd frontend
-streamlit run app.py
+        ```bash
+           cd frontend
+           streamlit run app.py
 
 The frontend runs on http://localhost:8501.
 
